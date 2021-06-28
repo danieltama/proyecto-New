@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http'
 import { Router } from '@angular/router'
 import { Usuarios } from '../Modelos/usuarios';
-import { UsuariosService } from './usuarios.service';
 
 @Injectable({
   providedIn: 'root'
@@ -13,9 +12,7 @@ export class RegistroService {
 
   usuarios : Usuarios[] = [];
 
-  private URL = 'http://localhost:3000/api'
-
-  private Url_auri = 'http://localhost:3000/api/users'
+  private URL = 'http://44.237.245.239:3000/api'
 
   constructor(private http: HttpClient,
     private router: Router,

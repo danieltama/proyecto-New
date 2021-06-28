@@ -10,7 +10,7 @@ export class CajaService {
 
   selectedCaja: Caja;
   cajas: Caja [] = [];
-  readonly URL_API = 'http://localhost:3000/api/caja';
+  readonly URL_API = 'http://44.237.245.239:3000/api/caja';
 
   constructor(private http: HttpClient) {
     this.selectedCaja = new Caja();
