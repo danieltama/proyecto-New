@@ -9,7 +9,7 @@ export class ProductosService {
 
   selectedProducto: Productos;
   productos: Productos[] = [];
-  readonly URL_API = 'http://localhost:3000/api/productos';
+  readonly URL_API = 'http://44.237.245.239:3000/api/productos';
 
   constructor(private http: HttpClient) {
     this.selectedProducto = new Productos();

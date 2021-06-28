@@ -1,7 +1,7 @@
 const { url } = require('inspector');
 const mongoose = require('mongoose');
 
-const URI = 'mongodb://localhost/tienda';
+const URI = 'mongodb+srv://user1:Alondra321#@cluster0.nrxti.mongodb.net/TiendaAnamyDB?retryWrites=true&w=majority';
 
 
 mongoose.connect(URI, {
